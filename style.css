@@ -1,0 +1,107 @@
+body{ 
+    margin:0;
+    font-family: sans-serif;
+    color: #000000;
+    background-color: transparent;
+}
+header{
+    text-align: center;
+    color: rgb(151, 2, 2);
+    padding: 35px;
+    background-color: #f2d9d9;
+}
+main{
+    width:90%;
+    background-color: antiquewhite;
+    max-width: 1000px;
+}
+.caja{
+    background-color: #ffff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    border: #000000 solid 10px;
+}
+.presentacion img{
+    width: 500px;
+}
+.presentacion{
+    padding: 30px;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+}
+
+main{
+    display: flex;
+    gap:20px;
+    align-items: flex-start;
+}
+    
+.flexbox-main{
+    display: flex;
+    gap: 20px;
+    text-align: 20px;
+    background-color: #f2d9d9;
+
+}
+.flexbox-main2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: 20px;
+    background-color: #f2d9d9;
+
+}7
+
+.contedor{
+    padding: 15px;
+    margin:10px;;
+}
+
+.menu{
+    display: flex;
+    gap: 12px
+    flex-wrap: wrap;
+}
+
+.menu a{
+    background-color: #0385c2
+    color:antiquewhite;
+}
+
+.menu a:hover{
+    background-color:rgb(125, 10, 10)
+    color:darkgrey
+}
+
+section{
+    margin:50px;
+}
+
+.boton{
+display: inline.block;
+background-color:#0385c2;
+color: white;
+padding: 8px 5px;
+border-radius: 8px;
+margin-top: 10px;
+}
+
+.boton:hover{
+    color:#0385c2;
+    background-color: grey;
+}
+
+.boton-secundario{
+    display: inline-block;
+    background-color: transparent;
+    color:rgb(212, 62, 7);
+    padding: 8px 5px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+}
